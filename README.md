@@ -210,3 +210,9 @@ db.employees.find({}, { _id: 0, name: 1, salary: 1 }).sort({ salary: -1 }).skip(
 The sorted list is Elan, Bala, Gopal, Charan, Deepa, ..., so skipping two and taking three gives Gopal, Charan and Deepa.
 
 ![Step 8](screenshots/s1.2-step8.png)
+
+---
+
+## Contributors
+
+- [n3h4a](https://github.com/n3h4a)
